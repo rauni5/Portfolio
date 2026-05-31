@@ -13,8 +13,6 @@ The core challenge was migrating a raw Servlet-based Java web app into a cleaner
     features: [
       'Full movie booking flow with seat selection',
       'Admin panel for movie management & user accounts',
-      'REST API endpoints for movies, bookings, users',
-      'Docker containerisation for consistent deployment',
       'Spring Boot migration from raw Servlets',
       'Enhanced accessibility and progressive features',
     ],
@@ -97,7 +95,7 @@ The Swing GUI wraps all operations — adding visitors, viewing records, generat
 Bill records are written as text files and a product catalogue file drives the available items. The project was submitted alongside a written report.`,
     tags: ['Python', 'File I/O', 'Modular Design', 'CLI'],
     features: [
-      'Modular architecture (6 focused Python files)',
+      'Modular architecture',
       'Product catalogue system',
       'Bill generation with file persistence',
       'CLI-driven user flow',
