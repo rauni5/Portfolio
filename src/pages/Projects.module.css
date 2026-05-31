@@ -1,0 +1,41 @@
+.page {
+  padding-top: 8rem;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  padding: 2rem 4vw 3.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: var(--text);
+  line-height: 1.05;
+  margin-bottom: 0.75rem;
+}
+
+.sub {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5px;
+  padding: 1.5px;
+}
